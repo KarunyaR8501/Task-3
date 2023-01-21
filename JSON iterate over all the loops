@@ -1,0 +1,46 @@
+JSON ITERATE OVER ALL THE LOOPS
+The for() loop
+The For Loop comes first because of its simplicity and ease of use. It is a very user-friendly kind of loop that runs with a method of using a counter. 
+SYNTAX => for(initialation;condition;increment/decrement){
+}
+
+The For Loop is further divided into:
+1. Using an array
+Example
+{% code-block language="js" %}
+var numbers = [ 10, 20, 30, 40, 50] 
+for (var i=0; i < numbers.length; i++) {
+   console.log(numbers[i])
+}
+‍{% code-block-end %}
+
+2. Making a loop through DOM elements
+Example
+ {% code-block language="js" %}
+var elements = document.querySelectorAll("a");
+for (var i=0; i<elements.length; i++) {
+   elements[i].style.color = "red";
+}
+‍{% code-block-end %}
+
+The forIn() loop
+this loop won’t be using a counter.
+So this makes the whole process even more simple and hassle-free. In fact, the For In Loop is essentially a simplified version of the For Loop.
+1. Looping through an Object Property
+
+The forEach() Loop
+This method is used for looping through an array element.
+Example
+% code-block language="js" %}
+var names = ["jerry", "tom", "pluto", "micky", "mini"];
+names.forEach(function1);
+function function1(currentValue, index) {
+   console.log("Index in array is: "+index + " ::  Value is: "+currentValue);
+}
+‍{% code-block-end %}
+
+
+
+
+
+
