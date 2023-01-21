@@ -1,0 +1,55 @@
+let myResume={
+    "basics": {
+      "name": "KARUNYA R",
+      "email": "karunya.purasaloor@gmail.com",
+      "phone": 9444766770,
+      "degree": "B.E",
+      "location": {
+        "address": "8/127,purasaloor,virudhunagar",
+        "postalCode": 626114,
+        "city": "Aruppukottai",
+        "state": "Tamilnadu",
+        "country": "India"
+      },
+      "profiles": [
+        {
+          "website": "",
+          "github":"",
+        }
+      ]
+    },
+    "work experience": [
+      {
+       "Fresher"
+      },
+    ],
+    "education": [
+      {
+        "institution": "University VOC college of Engineering",
+        "department": "Electronics and Communication Engineering",
+        "studyType": "fulltime",
+        "batch start year": 2018,
+        "batch end year": 2022,
+        "gpa": 7.5,
+      }
+    ],
+    "skills": [
+      {
+        "name": "C,java",
+        "level": "beginner",
+        
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil,Enlish",
+      }
+    ],
+    "interests": [
+      {
+        "name": "Networking field",
+      }
+    ]
+  }
+  console.log(myResume);
+  
